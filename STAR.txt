@@ -1,0 +1,31 @@
+
+////  ****** Star Pattern MAde By :- Rishabh Ostwal ****** ////
+
+
+#include<iostream.h>
+#include<conio.h>
+
+const int n=10; // it can be any number
+
+void main()
+{
+clrscr();
+
+int a=0,b=n;
+cout<<"\n\n\n";
+
+for(int i=0;i<n;i++)
+{
+
+  for(int j=0;j<n;j++)
+{
+  if(i==0 || j==0 || i==n-1 || j==n-1 || i==j || i==n-j-1)
+  cout<<"* ";
+  else
+  cout<<"  ";
+}
+  cout<<"\n";
+}
+
+getch();
+}
